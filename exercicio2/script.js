@@ -20,7 +20,7 @@ function verificaInfo(idade,completouEnsinoMedio,cursaFacul) {
 verificaInfo(18,true,false); //aqui estou testando o codigo.
 
 //Linha 3:Criei uma função chamada verificaInfo que recebeu três parâmetros: idade, completouEnsinoMedio e cursaFacul.
-//Linha 4: A função vai verificar esses parâmetros usando if e imprimir mensagens diferentes no console, dependendo dos valores que são passados como argumento quando a função é chamada.
+//A função vai verificar esses parâmetros e imprimir mensagens no console, dependendo dos valores que são passados como argumento quando a função é chamada.
 //por ultimo testei o código chamando a função e colocando valores aleatórios para validar os argumentos.
 
 

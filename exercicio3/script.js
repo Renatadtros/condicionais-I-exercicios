@@ -11,21 +11,19 @@ Crie uma estrutura de `if/else if/else` que verifique se a nacionalidade guardad
 > 💡 Lembre-se de prestar atenção às letras maiúsculas e minúsculas. */
 
 function Nacionalidade() {
-    let nacionalidade = prompt("Escreva aqui sua nacionalidade: ");
-    if (nacionalidade.toUpperCase() === "BRASILEIRA") {
+    let nacionalidade = prompt("Escreva aqui sua nacionalidade: ").toLowerCase();
+    if (nacionalidade === "brasileira") {
         console.log("Nacionalidade: brasileira");
-    } else if (nacionalidade.toLowerCase() === "argentina") {
+    } else if (nacionalidade === "argentina") {
         console.log("Nacionalidade: argentina")
-    } else if (nacionalidade.toLowerCase() === "uruguaia") {
+    } else if (nacionalidade === "uruguaia") {
         console.log("Nacionalidade: uruguaia")
-    } else if (nacionalidade.toLowerCase() === "chilena") {
+    } else if (nacionalidade === "chilena") {
         console.log("Nacionalidade: chilena")
-    } else if (nacionalidade.toLowerCase() === "colombiana") {
+    } else if (nacionalidade === "colombiana") {
         console.log("Nacionalidade: colombiana")
     } else {
         console.log("Nacionalidade não encontrada.");
     }
 }
 Nacionalidade();
-
-//return nacionalidade.toUpperCase() === "brasileira".toUpperCase();
